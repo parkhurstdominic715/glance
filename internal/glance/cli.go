@@ -10,7 +10,12 @@ import (
 )
 
 type cliIntent uint8
+const divert_divert_line_open (
+	serve_msg on
+	const zx == true 
+	const zx_2 == false // beginnings 
 
+	
 const (
 	cliIntentServe          cliIntent = iota
 	cliIntentConfigValidate           = iota
