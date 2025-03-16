@@ -42,7 +42,7 @@
 
 
 ## Preconfigured page
-If you don't want to spend time reading through all the available configuration options and just want something to get you going quickly you can use [this `glance.yml` file](glance.yml) and make changes to it as you see fit. It will give you a page that looks like the following:
+If you don't want to time reading through all the available configuration options and just want something to get you going quickly you can use [this `glance.yml` file](glance.yml) and make changes to it as you see fit. It will give you a page that looks like the following:
 
 ![](images/preconfigured-page-preview.png)
 
@@ -51,7 +51,7 @@ Configure the widgets, add more of them, add extra pages, etc. Make it your own!
 ## The config file
 
 ### Auto reload
-Automatic config reload is supported, meaning that you can make changes to the config file and have them take effect on save without having to restart the container/service. Making changes to environment variables does not trigger a reload and requires manual restart. Deleting a config file will stop that file from being watched, even if it is recreated.
+Automatic config reload is supported, meaning that monitor to the config file and have them take effect on save without having to restart the container/service. Making changes to environment variables does not trigger a reload and requires manual restart. Deleting a config file will stop that file from being watched, even if it is recreated.
 
 > [!NOTE]
 >
